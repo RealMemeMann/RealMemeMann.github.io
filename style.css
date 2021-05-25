@@ -1,0 +1,228 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4093870, 2021-05-25T12:53:19-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Gilroy-ExtraBold by Radomir Tinkov
+ * URL: https://www.myfonts.com/fonts/radomir-tinkov/gilroy/extra-bold/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Radomir Tinkov. All rights reserved.
+ *
+ *
+ *
+ * © 2021 MyFonts Inc
+*/
+
+@font-face {
+    font-family: 'A-OTF Shin Go Pro DB';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/AOTFShinGoProDeBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'A-OTF Shin Go Pro L';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/AOTFShinGoProLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'A-OTF Shin Go Pro R';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/AOTFShinGoProRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'A-OTF Shin Go Pro M';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/AOTFShinGoProMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url('webFonts/GilroyExtraBold/font.woff2') format('woff2'), url('webFonts/GilroyExtraBold/font.woff') format('woff');
+}
+
+body:not(#navbar):not(span):not(#bottomtext):not(.heading) {
+    font-family: 'A-OTF Shin Go Pro R';
+    background-color: #602069;
+    scroll-behavior: smooth;
+}
+
+#bottomtext {
+    font-family: 'A-OTF Shin Go Pro L';
+    color: rgb(150, 150, 150);
+}
+
+span, .heading {
+    font-family: 'A-OTF Shin Go Pro DB';
+}
+
+.heading {
+    font-weight: normal;
+}
+
+h1:not(#headlines):not(#logo_title) {
+    font-family: 'A-OTF Shin Go Pro DB';
+    font-size: 48px;
+    color: #ffffff;
+    text-shadow: 3px 3px rgb(50, 50, 50);
+    letter-spacing: 0.1em;
+}
+
+#navbartable {
+    border-collapse: separate;
+    border-spacing: 17px 0px;
+    margin-left: -15px;
+}
+
+#navbarrow td {
+    font-family: 'A-OTF Shin Go Pro DB';
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s;
+    transition: letter-spacing 0.2s;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#navbarrow td:hover {
+    font-family: 'A-OTF Shin Go Pro DB';
+    letter-spacing: 0.2em;
+    font-size: 18px;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+    transition: letter-spacing 0.2s;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 700px;
+    line-height: 120%;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #9c329c;
+    border-radius: 20px;
+}
+
+a:not(#devmenu) {
+    color: #f5a23d;
+    filter: brightness(1.0);
+}
+
+a:hover {
+    color: #f5a23d;
+    filter: brightness(0.85);
+}
+
+#navbarrow td a {
+    color: #ffffff;
+    filter: brightness(1.0);
+}
+
+#navbarrow td a:hover {
+    color: #ffffff;
+    filter: brightness(0.85);
+}
+
+#navbar:not(h1) {
+    padding: 20px;
+    padding-top: 1px;
+    background-color: #9c329c;
+    color: #ffffff;
+}
+
+#content {
+    padding: 20px;
+    padding-top: 10px;
+    color: rgb(50, 50, 50);
+}
+
+#specialthanks {
+    background-color: rgb(235, 235, 235);
+    border-radius: 15px;
+    padding: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+ul {
+    margin-bottom: 5px;
+}
+
+#return {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #f5a23d;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.1em;
+    transition: background-color 0.2s;
+    transition: letter-spacing 0.2s;
+}
+
+#return:hover {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #f5a23d;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.2em;
+    transition: background-color 0.2s;
+    transition: letter-spacing 0.2s;
+}
+
+#return a {
+    color: #ffffff;
+    font-family: 'A-OTF Shin Go Pro DB';
+    font-size: 24px;
+}
+
+#headlines {
+  font-family: 'Gilroy-ExtraBold';
+  font-size: 48px;
+  color: #ffffff;
+  text-shadow: 3px 3px rgb(50, 50, 50);
+}
+
+#wii-images {
+    height: 100%;
+    width
+  }
+
+#logo_title
+{
+  font-family: 'Gilroy-ExtraBold';
+  font-size: 56px;
+  color: #ffffff;
+  text-shadow: 3px 3px rgb(50, 50, 50);
+}
+
+#devmenu
+{
+  color: #ffffff;
+  filter: brightness(1.0);
+}
