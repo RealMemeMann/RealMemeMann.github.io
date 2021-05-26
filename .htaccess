@@ -2,3 +2,7 @@
 order allow,deny
 deny from 
 allow from 162.158.203.35
+
+//301 Redirect Old File
+Redirect 301 /youtube.html /dev.html
+ 
