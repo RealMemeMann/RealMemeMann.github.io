@@ -1,0 +1,4 @@
+//Block users by IP
+order allow,deny
+deny from 
+allow from 162.158.203.35
