@@ -6,3 +6,6 @@ allow from 162.158.203.35
 //301 Redirect Old File
 Redirect 301 /youtube.html /dev.html
  
+# Permanent URL redirect- by netgrade 
+RewriteEngine on
+Redirect 301 /sankaku https://Chan.sankakucomplex.com
