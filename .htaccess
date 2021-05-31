@@ -8,4 +8,5 @@ Redirect 301 /youtube.html /dev.html
  
 # Permanent URL redirect- by netgrade 
 RewriteEngine on
-Redirect 301 /sankaku https://Chan.sankakucomplex.com
+Redirect 301 /sankaku.html 
+https://chan.sankakucomplex.com/Index.html
