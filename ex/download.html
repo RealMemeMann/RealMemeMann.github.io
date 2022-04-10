@@ -1,8 +1,11 @@
 <html>
 <body>
 <script>
-var url = window.prompt("Enter your name: ");
+(function() {
+var url = window.prompt("Enter the URL you want to download: ");
+document.getElementById("link").setAttribute("href",url);
+})();
 </script>
-  <a href=url>Hold and click save on iOS</html>
-</body>
+<a id="link">Hold and click save on iOS</a>
+</body
 </html>
